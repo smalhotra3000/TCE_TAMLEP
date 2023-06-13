@@ -1,0 +1,1172 @@
+Script started on 2023-06-13 18:30:04+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="108" LINES="28"]
+[?2004h(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda --version
+[?2004lconda 23.3.1
+[?2004h(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda c[K[K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda [K(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.3.1
+  latest version: 23.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.5.0
+
+
+
+## Package Plan ##
+
+  environment location: /home/sameer/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.78             |  py311h5eee18b_0         2.7 MB
+    blas-1.0                   |              mkl           6 KB
+    ca-certificates-2023.05.30 |       h06a4308_0         120 KB
+    intel-openmp-2023.1.0      |   hdb19cb5_46305        17.1 MB
+    libffi-3.4.4               |       h6a678d5_0         142 KB
+    mkl-2023.1.0               |   h6d00ec8_46342       171.5 MB
+    mkl-service-2.4.0          |  py311h5eee18b_1          54 KB
+    mkl_fft-1.3.6              |  py311ha02d727_1         217 KB
+    mkl_random-1.2.2           |  py311ha02d727_1         291 KB
+    numpy-1.24.3               |  py311h08b1b3b_1          11 KB
+    numpy-base-1.24.3          |  py311hf175353_1         7.2 MB
+    openssl-3.0.8              |       h7f8727e_0         5.2 MB
+    pip-23.1.2                 |  py311h06a4308_0         3.2 MB
+    python-3.11.3              |       h955ad1f_1        32.6 MB
+    setuptools-67.8.0          |  py311h06a4308_0         1.4 MB
+    sqlite-3.41.2              |       h5eee18b_0         1.2 MB
+    tbb-2021.8.0               |       hdb19cb5_0         1.6 MB
+    wheel-0.38.4               |  py311h06a4308_0          79 KB
+    xz-5.4.2                   |       h5eee18b_0         642 KB
+    ------------------------------------------------------------
+                                           Total:       245.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  biopython          pkgs/main/linux-64::biopython-1.78-py311h5eee18b_0 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.05.30-h06a4308_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46305 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h6d00ec8_46342 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py311h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.6-py311ha02d727_1 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py311ha02d727_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  numpy              pkgs/main/linux-64::numpy-1.24.3-py311h08b1b3b_1 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.24.3-py311hf175353_1 
+  openssl            pkgs/main/linux-64::openssl-3.0.8-h7f8727e_0 
+  pip                pkgs/main/linux-64::pip-23.1.2-py311h06a4308_0 
+  python             pkgs/main/linux-64::python-3.11.3-h955ad1f_1 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-67.8.0-py311h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py311h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+numpy-1.24.3         | 11 KB     |                                                                   |   0% 
+mkl-service-2.4.0    | 54 KB     |                                                                   |   0% [A
+
+mkl-2023.1.0         | 171.5 MB  |                                                                   |   0% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   |                                                                   |   0% [A[A[A
+
+
+
+tbb-2021.8.0         | 1.6 MB    |                                                                   |   0% [A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    |                                                                   |   0% [A[A[A[A[A
+
+
+
+
+
+sqlite-3.41.2        | 1.2 MB    |                                                                   |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    |                                                                   |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   |                                                                   |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    |                                                                   |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+blas-1.0             | 6 KB      |                                                                   |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[Anumpy-1.24.3         | 11 KB     | ################################################################# | 100% 
+
+mkl-2023.1.0         | 171.5 MB  | 1                                                                 |   0% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | #7                                                                |   3% [A[A[A
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ########6                                                         |  13% [A[A[A[A
+
+
+
+
+
+sqlite-3.41.2        | 1.2 MB    | ###4                                                              |   5% [A[A[A[A[A[A
+mkl-service-2.4.0    | 54 KB     | ################################################################# | 100% [A
+mkl-service-2.4.0    | 54 KB     | ################################################################# | 100% [A
+
+mkl-2023.1.0         | 171.5 MB  | #                                                                 |   2% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########5                                                       |  16% [A[A[A
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ############################9                                     |  45% [A[A[A[A
+
+
+
+
+
+sqlite-3.41.2        | 1.2 MB    | ########################################7                         |  63% [A[A[A[A[A[A
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ############################################3                     |  68% [A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #6                                                                |   2% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################4                                                 |  25% [A[A[A
+
+
+
+
+
+sqlite-3.41.2        | 1.2 MB    | ################################################################  |  99% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##3                                                               |   4% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ########################2                                         |  37% [A[A[A
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | 7                                                                 |   1% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   |                                                                   |   0% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##9                                                               |   5% [A[A
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | ############################1                                     |  43% [A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##############################5                                   |  47% [A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #2                                                                |   2% [A[A[A[A[A[A[A[A
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ################################################################# | 100% [A[A[A[A
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ################################################################# | 100% [A[A[A[A
+
+
+
+
+
+sqlite-3.41.2        | 1.2 MB    | ################################################################# | 100% [A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###6                                                              |   6% [A[A
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | ####################################################7             |  81% [A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########################################9                       |  66% [A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | 3                                                                 |   1% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ##3                                                               |   4% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ###5                                                              |   5% [A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####3                                                             |   7% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ###6                                                              |   6% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##################################################9               |  78% [A[A[A
+
+
+
+
+
+
+
+
+
+blas-1.0             | 6 KB      | ################################################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####9                                                             |   8% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ####9                                                             |   8% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+blas-1.0             | 6 KB      | ################################################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | #5                                                                |   2% [A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########################################################2       |  90% [A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ######2                                                           |  10% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####5                                                            |   8% [A[A
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ################################################################# | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ################################################################# | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ###                                                               |   5% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #######6                                                          |  12% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################################################################6 | 100% [A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######                                                            |   9% [A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ####5                                                             |   7% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #########8                                                        |  15% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######5                                                           |  10% [A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ######1                                                           |   9% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ############3                                                     |  19% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######                                                           |  11% [A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | #######6                                                          |  12% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ##############1                                                   |  22% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ###########4                                                      |  18% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ################4                                                 |  25% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######5                                                          |  12% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ##################7                                               |  29% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ##############4                                                   |  22% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######9                                                          |  12% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #####################3                                            |  33% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ####################5                                             |  32% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########3                                                         |  13% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #######################7                                          |  37% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ###########################4                                      |  42% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########7                                                         |  13% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ##########################5                                       |  41% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | #####################################3                            |  58% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########2                                                        |  14% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #############################8                                    |  46% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | #################################################2                |  76% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########7                                                        |  15% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #################################                                 |  51% [A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ################################################################  |  99% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########2                                                       |  16% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ###################################9                              |  55% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########6                                                       |  16% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ######################################9                           |  60% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########1                                                      |  17% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ##########################################                        |  65% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########7                                                      |  18% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #############################################5                    |  70% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############3                                                     |  19% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #################################################2                |  76% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############9                                                     |  20% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #####################################################2            |  82% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############4                                                    |  21% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | #########################################################         |  88% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############                                                    |  22% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ############################################################8     |  94% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | ################################################################# | 100% [A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############6                                                   |  23% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ################################################################5 |  99% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############2                                                  |  24% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############9                                                  |  25% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################6                                                 |  26% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################4                                                |  27% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################2                                               |  28% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################9                                               |  29% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################7                                              |  30% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################6                                             |  32% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################7                                            |  33% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################6                                           |  35% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################6                                          |  36% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################5                                         |  38% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################3                                        |  39% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################2                                       |  40% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################1                                      |  42% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ################################################################# | 100% [A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################                                      |  43% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################8                                     |  44% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################5                                    |  46% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################3                                   |  47% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################1                                  |  48% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################9                                  |  49% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################6                                 |  50% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################################5                                |  52% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##################################4                               |  53% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###################################2                              |  54% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################################                              |  55% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################################8                             |  57% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################################6                            |  58% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ######################################3                           |  59% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################################2                          |  60% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ########################################4                         |  62% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################################4                        |  64% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##########################################2                       |  65% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################################                       |  66% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################################7                      |  67% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ############################################3                     |  68% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################################                     |  69% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ##############################################                    |  71% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################################                   |  72% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################################                  |  74% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #################################################                 |  76% [A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ################################################################# | 100% [A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ####################################################3             |  81% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #####################################################9            |  83% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #######################################################8          |  86% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #########################################################8        |  89% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###########################################################6      |  92% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | #############################################################3    |  94% [A[A
+
+
+
+
+
+
+
+python-3.11.3        | 32.6 MB   | ################################################################# | 100% [A[A[A[A[A[A[A[A
+
+mkl-2023.1.0         | 171.5 MB  | ###############################################################3  |  97% [A[A
+
+mkl-2023.1.0         | 171.5 MB  | ################################################################# | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A                                                                                                            
+                                                                                                            [A
+
+                                                                                                            [A[A
+
+
+                                                                                                            [A[A[A
+
+
+
+                                                                                                            [A[A[A[A
+
+
+
+
+                                                                                                            [A[A[A[A[A
+
+
+
+
+
+                                                                                                            [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                            [A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+Preparing transaction: - \ | done
+Verifying transaction: - \ | / - \ | / - \ | done
+Executing transaction: - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda activare =[K=[K[K[K[Kte snowflakes
+[?2004l[?2004h(snowflakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda deactivate
+[?2004l[?2004h(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda info --envs
+[?2004l# conda environments:
+#
+base                  *  /home/sameer/miniconda3
+snowflakes               /home/sameer/miniconda3/envs/snowflakes
+
+[?2004h(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda create --name snakes python=3.9
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / done
+Solving environment: \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.3.1
+  latest version: 23.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.5.0
+
+
+
+## Package Plan ##
+
+  environment location: /home/sameer/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-23.1.2                 |   py39h06a4308_0         2.5 MB
+    python-3.9.16              |       h955ad1f_3        25.1 MB
+    setuptools-67.8.0          |   py39h06a4308_0         1.0 MB
+    wheel-0.38.4               |   py39h06a4308_0          64 KB
+    ------------------------------------------------------------
+                                           Total:        28.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.05.30-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.8-h7f8727e_0 
+  pip                pkgs/main/linux-64::pip-23.1.2-py39h06a4308_0 
+  python             pkgs/main/linux-64::python-3.9.16-h955ad1f_3 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-67.8.0-py39h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py39h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.16        | 25.1 MB   |                                                                   |   0% 
+setuptools-67.8.0    | 1.0 MB    |                                                                   |   0% [A
+
+pip-23.1.2           | 2.5 MB    |                                                                   |   0% [A[A
+
+
+wheel-0.38.4         | 64 KB     |                                                                   |   0% [A[A[Apython-3.9.16        | 25.1 MB   | #7                                                                |   3% 
+setuptools-67.8.0    | 1.0 MB    | ####################################################3             |  80% [A
+
+pip-23.1.2           | 2.5 MB    | ####3                                                             |   7% [A[A
+
+
+wheel-0.38.4         | 64 KB     | ################################################################# | 100% [A[A[A
+
+
+wheel-0.38.4         | 64 KB     | ################################################################# | 100% [A[A[Apython-3.9.16        | 25.1 MB   | #######2                                                          |  11% 
+
+pip-23.1.2           | 2.5 MB    | ##########################3                                       |  40% [A[Apython-3.9.16        | 25.1 MB   | ###########8                                                      |  18% python-3.9.16        | 25.1 MB   | #################7                                                |  27% python-3.9.16        | 25.1 MB   | #######################8                                          |  37% 
+setuptools-67.8.0    | 1.0 MB    | ################################################################# | 100% [Apython-3.9.16        | 25.1 MB   | #############################2                                    |  45% python-3.9.16        | 25.1 MB   | ##################################3                               |  53% 
+
+pip-23.1.2           | 2.5 MB    | ################################################################# | 100% [A[A
+
+pip-23.1.2           | 2.5 MB    | ################################################################# | 100% [A[Apython-3.9.16        | 25.1 MB   | ##########################################1                       |  65% python-3.9.16        | 25.1 MB   | ###################################################5              |  79% python-3.9.16        | 25.1 MB   | #########################################################9        |  89% python-3.9.16        | 25.1 MB   | ################################################################# | 100% python-3.9.16        | 25.1 MB   | ################################################################# | 100%                                                                                                             
+                                                                                                            [A
+
+                                                                                                            [A[A
+
+
+                                                                                                            [A[A[A
+Preparing transaction: / - done
+Verifying transaction: | / - \ | / - \ | done
+Executing transaction: - \ | / - done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda activate snakes
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda info --envs
+[?2004l# conda environments:
+#
+base                     /home/sameer/miniconda3
+snakes                *  /home/sameer/miniconda3/envs/snakes
+snowflakes               /home/sameer/miniconda3/envs/snowflakes
+
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ python --version
+[?2004lPython 3.9.16
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda search beautifulsoup4
+[?2004lLoading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py39h06a4308_0  pkgs/main           
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda insrta[K[K[Ktall beautifulsoup4
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / done
+Solving environment: \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.3.1
+  latest version: 23.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.5.0
+
+
+
+## Package Plan ##
+
+  environment location: /home/sameer/miniconda3/envs/snakes
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.12.2      |   py39h06a4308_0         209 KB
+    soupsieve-2.4              |   py39h06a4308_0          69 KB
+    ------------------------------------------------------------
+                                           Total:         278 KB
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/linux-64::beautifulsoup4-4.12.2-py39h06a4308_0 
+  soupsieve          pkgs/main/linux-64::soupsieve-2.4-py39h06a4308_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+beautifulsoup4-4.12. | 209 KB    |                                                                   |   0% 
+soupsieve-2.4        | 69 KB     |                                                                   |   0% [A
+soupsieve-2.4        | 69 KB     | ################################################################# | 100% [Abeautifulsoup4-4.12. | 209 KB    | ##################################9                               |  54% beautifulsoup4-4.12. | 209 KB    | ################################################################# | 100%                                                                                                             
+                                                                                                            [A
+Preparing transaction: / done
+Verifying transaction: \ done
+Executing transaction: / done
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda list
+[?2004l# packages in environment at /home/sameer/miniconda3/envs/snakes:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.12.2           py39h06a4308_0  
+ca-certificates           2023.05.30           h06a4308_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+ncurses                   6.4                  h6a678d5_0  
+openssl                   3.0.8                h7f8727e_0  
+pip                       23.1.2           py39h06a4308_0  
+python                    3.9.16               h955ad1f_3  
+readline                  8.2                  h5eee18b_0  
+setuptools                67.8.0           py39h06a4308_0  
+soupsieve                 2.4              py39h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tk                        8.6.12               h1ccaba5_0  
+tzdata                    2023c                h04d1e81_0  
+wheel                     0.38.4           py39h06a4308_0  
+xz                        5.4.2                h5eee18b_0  
+zlib                      1.2.13               h5eee18b_0  
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [K(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ exit[K[K[K[Kecho $PATH
+[?2004l/home/sameer/miniconda3/envs/snakes/bin:/home/sameer/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Users/sameer.malhotra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sameer.malhotra/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sameer.malhotra/AppData/Local/Programs/Git/cmd:/snap/bin
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ which python
+[?2004l/home/sameer/miniconda3/envs/snakes/bin/python
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ [7mconda config --add channels conda-forge[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --add channels conda-forge
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --get
+[?2004l--add channels 'defaults'   # lowest priority
+--add channels 'conda-forge'   # highest priority
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --get channels
+[?2004l--add channels 'defaults'   # lowest priority
+--add channels 'conda-forge'   # highest priority
+[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --add channels https:[K[K://connda[K[K[Kda.anaconda.org/mutiri[Kri
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --add channels http://conda.anaconda.org/mutirri[1P[1P[1P[1@r[1@e[1@m[1@o[1@v[1@e
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --remove-key channels
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --remove-key channels channels http://conda.anaconda.org/mutirri[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Padd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cget channels[K[K
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ conda config --set restore_free_channel true
+[?2004l[?2004h(snakes) ]0;sameer@TIGER01732: ~[01;32msameer@TIGER01732[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-06-13 19:03:21+05:30 [COMMAND_EXIT_CODE="0"]
